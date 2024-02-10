@@ -53,21 +53,55 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "NIIT",
+      degree: "Diploma in Software Engineering",
+      start: "2007",
+      end: "2008",
+    },
+    {
       school: "MEA Engineering College, Malappuram",
       degree: "Engineering in Information Technology",
       start: "2003",
       end: "2007",
+    },
+    {
+      school: "D U H S S Thootha",
+      degree: "Plus Two",
+      start: "2000",
+      end: "2002",
     },
   ],
   work: [
     {
       company: "Amthal Group BSC Closed",
       link: "https://amthalgroup.com",
+      badges: ["Support Manage", "ERP Developer","Support Manager"],
+      title: "Support Manager",
+      logo: ParabolLogo,
+      start: "2016",
+      end: "Present",
+      description:
+        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+    },
+    {
+      company: "Amthal Group BSC Closed",
+      link: "https://amthalgroup.com",
       badges: ["Full Stack Developer"],
+      title: "Senior Developer",
+      logo: ParabolLogo,
+      start: "2012",
+      end: "2016",
+      description:
+        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+    },
+    {
+      company: "Amthal Group BSC Closed",
+      link: "https://amthalgroup.com",
+      badges: ["Developer"],
       title: "Developer",
       logo: ParabolLogo,
       start: "2008",
-      end: "2013",
+      end: "2012",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
@@ -77,9 +111,10 @@ export const RESUME_DATA = {
     "asp.net",
     "JavaScript",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Docker",
+    "Devops",
+    "Azure CI/CD",
+    "Git-Hub Devops"
   ],
   projects: [
     {
